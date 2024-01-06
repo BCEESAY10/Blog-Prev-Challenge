@@ -1,0 +1,88 @@
+@import url('https://fonts.google.com/specimen/Figtree') ;
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+    --yellow: hsl(47, 88%, 63%);
+}
+body{
+    background-color: var(--yellow);
+    font-family: Figtree;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: var(--black);
+}
+p{
+    font-size: 16px;
+}
+
+.container{
+    width: 23%;
+    height: 60vh;
+    margin: 10vh auto;
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    box-shadow: 4px 4px 1px var(--black);
+    background-color: var(--white);
+}
+
+.container .screen{
+    width: 85%;
+    height: 23vh;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, var(--yellow), var(--black));
+}
+
+.container h3{
+    background-color: var(--yellow);
+    padding: 2px;
+    width: 80px;
+    margin: 10px 7%;
+    border-radius: 5px;
+    text-align: center;
+}
+.container span{
+    font-size: 16px;
+    margin: 10px 7%;
+}
+.container p{
+    margin: 5px 7%;
+    color: var(--grey);
+}
+.container h2{
+    margin: 5px 7%;
+}
+.container .profile-pic{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container .profile-pic h3{
+    background-color: transparent;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: -25%;
+}
+.container .profile-pic img{
+    width: 16%;
+    height: 7vh;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        width: 90%;
+        height: 70vh;
+        margin: 10vh auto;
+        border: 1px solid var(--black);
+        border-radius: 10px;
+        box-shadow: 4px 4px 1px var(--black);
+        background-color: var(--white);
+    }
+}
