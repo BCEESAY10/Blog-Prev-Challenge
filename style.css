@@ -1,4 +1,5 @@
-@import url('https://fonts.google.com/specimen/Figtree') ;
+@import url('/assets/fonts/Figtree-VariableFont_wght.ttf') ;
+@import url('/assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
 
 :root{
     --white: hsl(0, 0%, 100%);
