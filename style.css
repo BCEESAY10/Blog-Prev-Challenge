@@ -23,7 +23,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Figtree';
-    overflow: hidden;
 }
 
 body {
@@ -53,8 +52,8 @@ p{
     width: 350px;
     max-width: 90vw;
     border: 1px solid var(--black);
-    border-radius: 10px;
-    box-shadow: 4px 4px 1px var(--black);
+    border-radius: 15px;
+    box-shadow: 5px 5px 1px var(--black);
     background-color: var(--white);
     padding: 16px;
     margin: 0 auto;
@@ -62,19 +61,22 @@ p{
 
 .container .screen{
     width: 100%;
-    height: 20vh;
+    height: 22vh;
     margin: 5px auto;
-    border-radius: 10px;
+    border-radius: 15px;
     background: linear-gradient(to bottom right, var(--yellow), var(--black));
+    overflow: hidden;
 }
 
-.container h3{
+.container .learning{
     background-color: var(--yellow);
-    padding: 3px 4px;
+    padding: 4px 8px;
     width: fit-content;
     margin: 10px 0;
     border-radius: 5px;
-    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--black);
 }
 .container time{
     font-size: 16px;
