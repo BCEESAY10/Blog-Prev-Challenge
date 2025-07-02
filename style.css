@@ -99,6 +99,11 @@ p{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    gap: 10px;
+}
+
+.container .profile-pic figcaption{
+    font-weight: 600;
 }
 
 .container .profile-pic img{
