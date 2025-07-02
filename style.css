@@ -37,7 +37,7 @@ body {
     overflow: auto;
 }
 
-.main{
+main{
     width: 1025px;
     display: flex;
     justify-content: center;
