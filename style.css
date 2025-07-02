@@ -70,8 +70,8 @@ p{
 
 .container h3{
     background-color: var(--yellow);
-    padding: 3px;
-    width: 80px;
+    padding: 3px 4px;
+    width: fit-content;
     margin: 10px 0;
     border-radius: 5px;
     text-align: center;
