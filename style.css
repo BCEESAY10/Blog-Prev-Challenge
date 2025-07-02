@@ -39,15 +39,10 @@ body {
 }
 
 .main{
-    background-color: var(--yellow);
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--black);
-    width: 1440px;
-    height: 100vh;
-    margin: auto;
-    padding: 16px 12px;
 }
 
 p{
@@ -55,12 +50,14 @@ p{
 }
 
 .container{
-    width: 23%;
+    width: 350px;
+    max-width: 90vw;
     border: 1px solid var(--black);
     border-radius: 10px;
     box-shadow: 4px 4px 1px var(--black);
     background-color: var(--white);
     padding: 16px;
+    margin: 0 auto;
 }
 
 .container .screen{
