@@ -64,8 +64,8 @@ p{
     height: 22vh;
     margin: 5px auto;
     border-radius: 15px;
-    background: linear-gradient(to bottom right, var(--yellow), var(--black));
-    overflow: hidden;
+    background: var(--yellow);
+    display: block;
 }
 
 .container .learning{
